@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
-mongoose.connect('mongodb+srv://arjun3314508:A3ScWhy878613wXv@cluster0.b7dwa.mongodb.net/')
+mongoose.connect('mongodb+srv://<your_username>:<your_password>@<your_cluster>/')
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
