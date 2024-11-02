@@ -4,9 +4,10 @@
     "private": true,
     "scripts": {
         "build": "cd client && yarn build",
-        "start": "concurrently \"yarn --cwd client start\" \"yarn --cwd api start\"",
-        "client": "yarn --cwd client start",
-        "api": "yarn --cwd api start"
+       
+        "start": "yarn --cwd api start"
+
+       
     },
     "devDependencies": {
         "concurrently": "^9.0.1"
