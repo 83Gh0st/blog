@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "helmet": "^8.0.0"
+    }
+}

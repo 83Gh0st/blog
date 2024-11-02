@@ -1,0 +1,14 @@
+{
+    "name": "my-blog",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "concurrently \"yarn --cwd client start\" \"yarn --cwd api start\"",
+      "client": "yarn --cwd client start",
+      "api": "yarn --cwd api start"
+    },
+    "devDependencies": {
+      "concurrently": "^9.0.1"
+    }
+  }
+  
